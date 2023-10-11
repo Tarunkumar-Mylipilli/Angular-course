@@ -10,11 +10,14 @@ export class HeaderComponent {
 
   // @Input()  data=""
 
-@Output() child = new EventEmitter();
+// @Output() child = new EventEmitter();
 
-message = "This is Output"
+// message = ""
 
-updatemessage(){
-  this.child.emit(this.message)
-}
+// updatemessage(i:any){
+//   this.message=i.value
+// }
+
+
+viewchild = "this data is from view child"
 }

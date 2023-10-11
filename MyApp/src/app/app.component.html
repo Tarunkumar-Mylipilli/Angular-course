@@ -8,9 +8,20 @@
             <!-- component communication from child to parent using @output -->
 
 
-
-
 <!-- <app-header (child)="data1=$event"></app-header>
 
+{{data1}} -->
+
+            <!-- component communication between child to parent  using template reference variabe  -->
+
+
+<!-- <div>{{child.message}}</div>
+<app-header #child></app-header> -->
+
+
+                 <!-- component communication from child to parent using viewchild  -->
+<!-- <app-header></app-header>
+
+<button (click)="test()">submit</button>
 {{data1}} -->
 <router-outlet></router-outlet>

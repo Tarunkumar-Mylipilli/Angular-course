@@ -1,14 +1,23 @@
 <h1>Component communication  </h1>
 
 
-<!-- <p>From Parent To Child</p>
+            <!-- <p>From Parent To Child</p>
 
 {{data}} -->
 
 
 
 
-<!-- Child to Parent  -->
+                <!-- Child to Parent @Output -->
 
-<input type="text" [(ngModel)]="message">
-<button (click)="updatemessage()">Submit</button>
+<!-- <input type="text" [(ngModel)]="message">
+<button (click)="updatemessage()">Submit</button> -->
+
+
+                <!-- child to parent template reference variable  -->
+
+<!-- <input type="text" #i value="this is child to parent template reference variable">
+<button   (click)="updatemessage(i)">Update</button> -->
+
+                <!-- child to parent using viewchild  -->
+<!-- <input type="text" [(ngModel)]="viewchild"> -->
