@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'MyApp';
 
-  message="you got the input"
+  data1=""
 }
